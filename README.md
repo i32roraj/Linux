@@ -13,7 +13,11 @@ Abrimos el centro de software de Ubuntu (click en el panel de Unity, aparece de 
 Vamos a Configuración del Sistema > Apariencia > Pestaña: Comportamiento.
 Activamos la casilla "Mostrar áreas de trabajo"
 
-
+**Instalar atom**  
+  $ sudo add-apt-repository ppa:webupd8team/atom  
+  $ sudo apt-get update  
+  $ sudo apt-get install atom
+  
 **Instalar git** --> sudo apt-get install git
 
 [Eliminar LibreOffice](https://github.com/Paco1994/Linux/blob/master/Eliminar%20LibreOffice)
