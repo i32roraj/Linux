@@ -1,0 +1,4 @@
+gedit ~/.bashrc
+buscar #force_color_prompt=yes y quitar la # para descomentarlo
+Cambiamos los colores buscando if [ "$color_prompt" = yes ]; then y cambiando su PS1. A mí me gusta este:
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;33m\]\u\[\033[01;36m\]@\[\033[01;31m\]\h\[\033[00;33m\]:\[\033[00;34m\]\w\[\033[00m\]$ '
