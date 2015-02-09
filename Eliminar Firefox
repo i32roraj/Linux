@@ -1,4 +1,4 @@
-run sudo apt-get purge firefox
+sudo apt-get purge firefox
 
 Delete .mozilla/firefox/ in your home directory, should it still be there
 
@@ -9,3 +9,8 @@ Delete /etc/firefox/, this is where your preferences and user-profiles are store
 Delete /usr/lib/firefox/ should it still be there
 
 Delete /usr/lib/firefox-addons/ should it still be there
+
+-----------------------------------------------------------------------------------------------
+Se puede hacer todo con un solo comando poniendo:
+
+sudo apt-get purge firefox && sudo rm -Rf .mozilla/firefox/ .macromedia .adobe /etc/firefox/ /usr/lib/firefox/ /usr/lib/firefox-addons/
