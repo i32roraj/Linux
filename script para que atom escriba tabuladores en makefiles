@@ -1,4 +1,5 @@
-PONER ESTO EN .atom/init.coffeepath = require 'path'
+PONER ESTO EN .atom/init.coffee
+path = require 'path'
 
 # Set Makefile[.any extension] and '.mk' files to always use hard tabs
 atom.workspaceView.eachEditorView (editorView) ->
